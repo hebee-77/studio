@@ -13,7 +13,7 @@ interface RecipeSuggestionsProps {
 }
 
 const VIEWED_ITEMS_KEY = 'crispy-goodness-viewed';
-const MAX_VIEWED_ITEMS = 5;
+const MAX_VIEWED_ITEMS = 3;
 
 export default function RecipeSuggestions({ productId, productName }: RecipeSuggestionsProps) {
   const [isPending, startTransition] = useTransition();
